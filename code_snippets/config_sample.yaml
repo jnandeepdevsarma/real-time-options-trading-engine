@@ -1,0 +1,19 @@
+# config_sample.yaml
+# Mock configuration file used for demonstration.
+
+risk:
+  capital_allocation_percent: 5
+  max_loss_per_trade: 1500
+  rr_ratio: 2
+
+safety:
+  frequency_cap: 3
+  daily_loss_limit: 5000
+
+strike_selector:
+  max_strikes_to_scan: 25
+  liquidity_threshold: 10000
+
+execution:
+  enable_slicing: true
+  slice_size: 25
